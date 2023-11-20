@@ -14,7 +14,7 @@ const int NUM_SUBJECTS = 3;
 const int MAX_STUDENTS = 50;
 const string SUBJECT_NAMES[NUM_SUBJECTS] = {"Math", "Database", "English"};
 
-//Function to validate scores
+//Function to validate scores - Adila
 bool validateScore(double& score) {
     if (cin.fail() || score < 0 || score > 100) {
         cin.clear();
@@ -25,7 +25,7 @@ bool validateScore(double& score) {
     return true;
 }
 
-//Function to input student information -Adila
+//Function to input student information - Adila
 void inputStudentInfo(int& studentID, string& studentName, double scores[], int numSubjects) {
     cout << "Enter Student ID: ";
     cin >> studentID;
@@ -42,14 +42,14 @@ void inputStudentInfo(int& studentID, string& studentName, double scores[], int 
     }
 }
 
-// Desclare all te variales - Hanan
+// Desclare all of the variales - Hanan
 int main() {
     int Student_ID[MAX_STUDENTS];
     string Student_Name[MAX_STUDENTS];
     double Score[MAX_STUDENTS][NUM_SUBJECTS];
     int Attendance[MAX_STUDENTS];
 
-    //Enter numbers into the array
+    //Enter numbers into the array - Hanan
     for (int i = 0; i < MAX_STUDENTS; ++i) {
         inputStudentInfo(Student_ID[i], Student_Name[i], Score[i], NUM_SUBJECTS);
 
@@ -78,7 +78,7 @@ int main() {
             cout << Score[x][j] << "\t\t";
         }
 
-        //Calculate and display average
+        //Calculate and display average - Anis Athirah
         double sum = 0.0;
         for (int j = 0; j < NUM_SUBJECTS; ++j) {
             sum += Score[x][j];
