@@ -42,7 +42,7 @@ void inputStudentInfo(int& studentID, string& studentName, double scores[], int 
     }
 }
 
-// Desclare all of the variales - Hanan
+// Array Declaration - Hanan
 int main() {
     int Student_ID[MAX_STUDENTS];
     string Student_Name[MAX_STUDENTS];
