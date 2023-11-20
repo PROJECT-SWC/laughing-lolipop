@@ -1,3 +1,9 @@
+/*
+    Program purpose : To design algorithms for a fictional school, "Starlight High School" to manage student records.
+    Programmer : AAHZ
+    Date :  23 October 2023
+*/
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -59,7 +65,7 @@ int main() {
     }
 
     //Display the list of students information with subject scores - Zainab
-    cout << "\nList of Students Information with Subject Scores:" << endl;
+    cout << "\nList of Students Information with Subject Scores in Starlight High School:" << endl;
 
     cout << "\tStudentID\t\tStudentName\t\tMath\t\tDatabase\tEnglish\t\tAverageScore%\tAttendance" << endl;
 
