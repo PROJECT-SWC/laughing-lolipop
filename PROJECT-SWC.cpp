@@ -19,7 +19,7 @@ bool validateScore(double& score) {
     return true;
 }
 
-//Function to input student information
+//Function to input student information -Adila
 void inputStudentInfo(int& studentID, string& studentName, double scores[], int numSubjects) {
     cout << "Enter Student ID: ";
     cin >> studentID;
@@ -36,6 +36,7 @@ void inputStudentInfo(int& studentID, string& studentName, double scores[], int 
     }
 }
 
+// Desclare all te variales - Hanan
 int main() {
     int Student_ID[MAX_STUDENTS];
     string Student_Name[MAX_STUDENTS];
@@ -57,12 +58,12 @@ int main() {
         } while (Attendance[i] < 0 || Attendance[i] > 100);
     }
 
-    //Display the list of students information with subject scores
+    //Display the list of students information with subject scores - Zainab
     cout << "\nList of Students Information with Subject Scores:" << endl;
 
     cout << "\tStudentID\t\tStudentName\t\tMath\t\tDatabase\tEnglish\t\tAverageScore%\tAttendance" << endl;
 
-    //Show the number in array and calculate
+    //Show the number in array and calculate - Anis Athirah
     for (int x = 0; x < MAX_STUDENTS; x++) {
         int i = x;
         cout << i + 1 << ".\t" << Student_ID[x] << "\t\t\t";
